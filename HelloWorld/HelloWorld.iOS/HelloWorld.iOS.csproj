@@ -48,7 +48,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <!--<CodesignEntitlements>Entitlements.plist</CodesignEntitlements>-->
     <MtouchLink>None</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
   </PropertyGroup>
@@ -60,7 +60,7 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <!--<CodesignEntitlements>Entitlements.plist</CodesignEntitlements>-->
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -129,7 +129,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
-      <Project>{A0DE4A41-8A14-4884-A026-CE5014AEFFE5}</Project>
+      <Project>{759E01E9-DFBC-409F-AE26-A771506A1E54}</Project>
       <Name>HelloWorld</Name>
     </ProjectReference>
   </ItemGroup>

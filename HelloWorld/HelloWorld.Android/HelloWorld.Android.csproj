@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelloWorld\HelloWorld.csproj">
-      <Project>{A0DE4A41-8A14-4884-A026-CE5014AEFFE5}</Project>
+      <Project>{759E01E9-DFBC-409F-AE26-A771506A1E54}</Project>
       <Name>HelloWorld</Name>
     </ProjectReference>
   </ItemGroup>
